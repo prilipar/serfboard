@@ -10,7 +10,7 @@ ul {
 }
 
 .hero {
-  background: url("./../../img/hero.png") center top/cover no-repeat;
+  background: url("../img/hero.png") center top/cover no-repeat;
   min-height: 650px;
 }
 .hero-content {
