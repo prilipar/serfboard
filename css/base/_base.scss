@@ -1,0 +1,34 @@
+//Ширина контейнера страницы
+$containerWidth: 940px;
+
+//Размер шрифта
+$fontSize: 18px;
+$fontFamily: 'Alegreya Sans', sans-serif;
+
+
+//color
+$black: #292929;
+$gray: #666666;
+$btnBlack: #000000;
+$yellow: #FEDB3F;
+$white: #FFFFFF;
+$blue: #3465A3;
+
+//Контейнер
+.container {
+  width: $containerWidth;
+  margin: auto;
+}
+
+.wraper {
+
+}
+
+.maincontent {
+
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}

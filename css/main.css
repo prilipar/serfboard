@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap");
+.container {
+  width: 940px;
+  margin: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: url("../../img/hero.png") center top/cover no-repeat;
+  min-height: 650px;
+}
+.hero-content {
+  padding-top: 24px;
+}
+.hero__title {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 15px;
+}
+.hero__desc {
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.menu__list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.menu__item {
+  margin-right: 22px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+.menu__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.phone__icon {
+  width: 14px;
+  height: 14px;
+}
+.phone__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Alegreya Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 18px;
+  margin-left: 6px;
+}
+
+.hero-content-text {
+  width: 578px;
+  margin-top: 103px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  background: #FEDB3F;
+  padding: 21px 41px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 39px;
+  margin-bottom: 64px;
+}
+
+.advantages {
+  color: #FFFFFF;
+}
+.advantages__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+.advantages__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 33px;
+  width: 142px;
+}
+.advantages__icon {
+  margin-right: 15px;
+  width: 35px;
+  height: 35px;
+}
+.advantages__desc {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+}
