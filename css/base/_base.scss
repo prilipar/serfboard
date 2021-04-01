@@ -13,6 +13,9 @@ $btnBlack: #000000;
 $yellow: #FEDB3F;
 $white: #FFFFFF;
 $blue: #3465A3;
+$bgIcon: #F2F5F4;
+$bgSection: #F8FAF9;
+
 
 //Контейнер
 .container {
@@ -21,7 +24,7 @@ $blue: #3465A3;
 }
 
 .wraper {
-
+font-family: $fontFamily;
 }
 
 .maincontent {
@@ -29,6 +32,10 @@ $blue: #3465A3;
 }
 
 ul{
+  margin: 0;
+  padding: 0;
+}
+h2{
   margin: 0;
   padding: 0;
 }
