@@ -25,7 +25,6 @@
     line-height: 22px;
     width: 450px;
     margin-bottom: 49px;
-
   }
 }
 
@@ -36,38 +35,54 @@
 
 .excellence {
 
-
   &__list {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-&__item{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 279px;
 
-}
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 279px;
+    position: relative;
+
+    &::before {
+      content: url('../../img/separator.png');
+      position: absolute;
+      padding-top: 50px;
+      transform: translate(160%);
+      width: 100px;
+      height: 50px;
+    }
+
+    &:last-child::before {
+      display: none;
+    }
+  }
+
   &__title {
-
     font-weight: bold;
     font-size: 27px;
     line-height: 32px;
     margin-bottom: 20px;
   }
-  &__icon{
+
+  &__icon {
     background: $bgIcon;
     width: 128px;
     height: 128px;
     border-radius: 100px;
     margin-bottom: 20px;
   }
-  &__pic{
+
+  &__pic {
     padding: 30px 30px;
   }
-  &__des{
+
+  &__des {
     margin-bottom: 114px;
   }
 }

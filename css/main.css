@@ -20,7 +20,6 @@ h2 {
 
 .hero {
   background: url("../img/hero.png") center top/cover no-repeat;
-  height: 100vh;
   min-height: 650px;
 }
 .hero-content {
@@ -181,6 +180,18 @@ h2 {
   flex-direction: column;
   align-items: center;
   width: 279px;
+  position: relative;
+}
+.excellence__item::before {
+  content: url("../../img/separator.png");
+  position: absolute;
+  padding-top: 50px;
+  transform: translate(160%);
+  width: 100px;
+  height: 50px;
+}
+.excellence__item:last-child::before {
+  display: none;
 }
 .excellence__title {
   font-weight: bold;
