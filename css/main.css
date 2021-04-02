@@ -183,10 +183,10 @@ h2 {
   position: relative;
 }
 .excellence__item::before {
-  content: url("../../img/separator.png");
+  content: url("../img/separator.png");
   position: absolute;
   padding-top: 50px;
-  transform: translate(160%);
+  transform: translate(165%);
   width: 100px;
   height: 50px;
 }
