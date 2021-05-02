@@ -1,0 +1,54 @@
+.team {
+  margin-bottom: 64px;
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  &__item {
+    list-style: none;
+  }
+
+  &__user-name {
+    font-family: Alegreya Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21.0181px;
+    line-height: 25px;
+
+  }
+}
+
+.user__list {
+  list-style: none;
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  width: 200px;
+  display: none;
+}
+
+.user__skils {
+  font-weight: normal;
+
+}
+.user__desc{
+  font-weight: 300;
+}

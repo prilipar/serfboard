@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap");
 .container {
   width: 940px;
@@ -111,6 +112,10 @@ h2 {
   margin-top: 39px;
   margin-bottom: 64px;
 }
+.btn-price {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 .advantages {
   color: #FFFFFF;
@@ -213,7 +218,145 @@ h2 {
   margin-bottom: 114px;
 }
 
-.info {
+.board {
   min-height: 642px;
   background: #F8FAF9;
+}
+.board-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 66px;
+}
+.board__peview {
+  margin-right: 40px;
+}
+.board__desc {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 22px;
+}
+.board__title {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.board__ins {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+
+.ins__lengs {
+  margin-right: 55px;
+}
+.ins__specification {
+  display: block;
+  font-weight: bold;
+}
+
+.board__pic {
+  background: url("../../img/bgboard.png") no-repeat;
+  rotate: 45deg;
+}
+
+.feature {
+  margin-left: 80px;
+}
+.feature__options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background: #3A587E;
+  width: 91px;
+  height: 91px;
+  border-radius: 5px;
+  margin-bottom: 52px;
+}
+.feature__options-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 7px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.price__board {
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 60px;
+}
+.price__board::after {
+  content: "₽";
+}
+
+.team {
+  margin-bottom: 64px;
+}
+.team__content {
+  display: flex;
+  flex-direction: column;
+}
+.team__title {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.team__item {
+  list-style: none;
+}
+.team__user-name {
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.0181px;
+  line-height: 25px;
+}
+
+.user__list {
+  list-style: none;
+  font-family: Alegreya Sans;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  width: 200px;
+  display: none;
+}
+
+.user__skils {
+  font-weight: normal;
+}
+
+.user__desc {
+  font-weight: 300;
+}
+
+.slider {
+  background: url("../../img/bgslider.png");
+  width: 100%;
+  height: 652px;
 }

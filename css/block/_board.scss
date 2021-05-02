@@ -1,0 +1,95 @@
+.board{
+  min-height: 642px;
+  background: $bgSection;
+  &-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 66px;
+  }
+  &__peview{
+    margin-right: 40px;
+    
+  }
+  &__desc{
+    font-family: Alegreya Sans;
+font-style: normal;
+font-weight: normal;
+    margin-bottom: 24px;
+    font-size: 18px;
+line-height: 22px;
+  }
+  &__title{
+    font-family: Alegreya Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
+text-transform: uppercase;
+margin-bottom: 24px;
+  }
+  &__ins{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+  }
+  
+}
+.ins{
+  &__lengs{
+    
+    margin-right: 55px;
+  }
+  &__specification{
+    display: block;
+    font-weight: bold;
+  }
+}
+.board__pic{
+  background: url('../../img/bgboard.png') no-repeat;
+  rotate: 45deg;
+}
+.feature{
+  margin-left: 80px;
+
+  &__options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:$white;
+    background: #3A587E;
+    width: 91px;
+height: 91px;
+border-radius: 5px;
+margin-bottom: 52px;
+    &-title{
+      
+      text-transform: uppercase;
+      font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+margin-top: 7px;
+
+
+    }
+  }
+}
+.price{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-between;
+
+  &__board{
+    font-weight: 300;
+font-size: 60px;
+line-height: 60px;
+&::after{
+  content: "\20BD";
+
+}
+  }
+  
+
+}
