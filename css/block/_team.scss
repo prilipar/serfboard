@@ -1,5 +1,6 @@
 .team {
   margin-bottom: 64px;
+
   &__content {
     display: flex;
     flex-direction: column;
@@ -29,10 +30,15 @@
     font-family: Alegreya Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 21.0181px;
+    font-size: 22px;
     line-height: 25px;
-
+    cursor: pointer;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: inherit;
   }
+ 
 }
 
 .user__list {
@@ -42,13 +48,15 @@
   font-size: 18px;
   line-height: 22px;
   width: 200px;
-  display: none;
+  overflow: hidden;
+  height: 0;
 }
 
 .user__skils {
   font-weight: normal;
 
 }
-.user__desc{
+
+.user__desc {
   font-weight: 300;
 }

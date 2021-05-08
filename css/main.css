@@ -264,7 +264,7 @@ h2 {
 
 .board__pic {
   background: url("../../img/bgboard.png") no-repeat;
-  rotate: 45deg;
+  background-position: 10%;
 }
 
 .feature {
@@ -333,8 +333,13 @@ h2 {
   font-family: Alegreya Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 21.0181px;
+  font-size: 22px;
   line-height: 25px;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: inherit;
 }
 
 .user__list {
@@ -344,7 +349,8 @@ h2 {
   font-size: 18px;
   line-height: 22px;
   width: 200px;
-  display: none;
+  overflow: hidden;
+  height: 0;
 }
 
 .user__skils {
